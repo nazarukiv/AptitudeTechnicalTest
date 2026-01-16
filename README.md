@@ -1,15 +1,17 @@
 # testProject
 # HTML Message Splitter
 
-## Описание
-HTML Message Splitter это инструмент для разделения длинных HTML-сообщений на фрагменты заданной длинны, при это сохраняя структуру HTML-тегов.
+## Description
+HTML Message Splitter is a simple tool that splits long HTML messages into smaller parts while keeping HTML tags correct.
 
-## Особенности
-- Умеет разделять сообщение, соблюдая структура HTML.
-- Предотвращает разделение текста внутри HTML-тегов.
-- Прост в использование благодаря интерфейс командной строки.
+## Features
+- Splits long HTML messages
+- Keeps HTML structure
+- Does not break HTML tags
+- Command-line tool
 
-## Установка
-Для начала убедиться что у вас установлен Python 3. Потом установите нужные библиотеки:
+## Installation
+run this:
+
 ```bash
 pip install beautifulsoup4 click
